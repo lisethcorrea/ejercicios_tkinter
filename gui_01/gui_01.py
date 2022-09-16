@@ -99,7 +99,7 @@ etiq_b.place(x=585, y= 120)
 entry_b = Entry(frame_entrada, width=4, textvariable=b)
 entry_b.config(font=("Arial", 20))
 entry_b.place(x=682,y=120)
-
+"""
 # ------------------
 # frame operaciones
 # ------------------
@@ -124,6 +124,7 @@ bt_sal = PhotoImage(file="img/boton_salir.png")
 # bt_salir = Button(frame_operaciones, text="Salir", width=10)
 bt_salir = Button(frame_operaciones, image=bt_sal, width=105, height=105, command=salir)
 bt_salir.place(x=558, y=7)
+"""
 
 # ------------------
 # frame resultados
